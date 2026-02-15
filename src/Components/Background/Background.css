@@ -1,0 +1,46 @@
+.background{
+    background-color: #4880FF;
+
+width: 100vw;
+height: 100vh;
+overflow: hidden;
+position:relative;
+
+.oval{
+    position: absolute;
+width: 822.5550638136626px;
+height: 622.1275709402155px;
+top: -153.18px;
+left: -190.67px;
+
+
+}
+.oval2{
+    position: absolute;
+    width: 692.9212550009935px;
+height: 980.6067557695959px;
+top: -322.34px;
+left: 684.23px;
+
+
+
+}
+.oval3{
+position: absolute;
+width: 849.0069580078125px;
+height: 585.5140380859375px;
+top: 217.29px;
+left: -216.01px;
+
+
+}
+.oval4{
+position: absolute;
+width: 764.7403457979415px;
+height: 1082.243658172457px;
+top: -114.02px;
+left: 734.22px;
+
+
+}
+}

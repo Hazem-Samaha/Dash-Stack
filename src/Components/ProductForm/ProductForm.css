@@ -1,0 +1,71 @@
+.FormProduct{
+        width:100%;
+    height: 80%;
+    background-color: #F5F6FA;
+    display: flex;
+    form{
+        width: 50%;
+        height: 40vh;
+        padding-left: 5%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        p{
+            font-family: Nunito Sans;
+font-weight: 600;
+font-size: 14px;
+line-height: 100%;
+letter-spacing: -0.06px;
+color: #202224;
+
+
+        }
+        input{
+            margin-top: 4px;
+            width: 80%;
+            height: 40px;
+            border: 1px solid #D8D8D8;
+            background-color: #F1F4F9;
+            border-radius: 6px;
+            padding: 16px;
+        }
+    }
+    .file{
+width: 90%;
+height: 100%;
+border: 1px solid #4880FF4D;
+border-radius: 4px;
+border-width: 1px;
+border-style: dashed;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: #FFFFFF;
+cursor: pointer;
+
+    }
+    .productfile{
+        width: 50%;
+        height: 40vh;
+        img{
+            width: 50%;
+            height: 100%;
+        }
+    }
+    .submit{
+width: 124px;
+height: 34px;
+padding:8px 4px;
+background-color: #4880FF;
+border: 1px solid #4880FF;
+color: #FFFFFF;
+opacity: 1;
+border-width: 1px;
+border-radius:4px;
+gap: 4px;
+cursor: pointer;
+&:hover{
+    background-color: #0b5ed7;
+}
+    }
+}
