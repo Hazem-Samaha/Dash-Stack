@@ -11,7 +11,7 @@ import AddProduct from './pages/AddProduct.jsx'
 import EditProduct from './pages/EditProduct.jsx'
 const routes=createBrowserRouter([
   {
-    path:"/Dash-Stack",
+    path:"/",
     element:<Auth/>,
     children:[
       {
@@ -22,7 +22,7 @@ const routes=createBrowserRouter([
         element:<Register />
       }]
   },{
-    path:"/Dash-Stack/dashboard",
+    path:"/dashboard",
     element:<Dashboard />,
     children:[
       {
