@@ -1,7 +1,7 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
-import { createHashRouter, RouterProvider } from 'react-router-dom'
+import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Login from './pages/Login.jsx'
 import Auth from './pages/Auth.jsx'
 import Register from './pages/Register.jsx'
@@ -9,7 +9,7 @@ import Dashboard from './pages/Dashboard.jsx'
 import AllProduct from './pages/AllProduct.jsx'
 import AddProduct from './pages/AddProduct.jsx'
 import EditProduct from './pages/EditProduct.jsx'
-const routes=createHashRouter([
+const routes=createBrowserRouter([
   {
     path:"/",
     element:<Auth/>,
@@ -37,7 +37,9 @@ const routes=createHashRouter([
       }
     ]
   }
-])
+], {
+  basename: import.meta.env.PROD ? '/Dash-Stack' : '/'
+})
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <RouterProvider router={routes}/>
